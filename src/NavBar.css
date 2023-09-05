@@ -1,0 +1,67 @@
+a {
+  text-decoration: none;
+  color: #0d0c22;
+}
+.nav-v2__wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 96px 1fr;
+  gap: 1.5rem;
+  padding: 0 2.5rem;
+  grid-template-rows: 6rem;
+}
+.nav-v2-main__list {
+  display: flex;
+  list-style: none;
+}
+.nav-v2-main__item {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-v2-main__item:hover {
+  opacity: 0.6;
+}
+.nav-v2-logo {
+  color: #0d0c22;
+  display: flex;
+  position: relative;
+  top: -1px;
+  width: 100%;
+}
+.nav-v2-dynamic__logged-out {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-v2-dynamic__logged-out a {
+  margin-left: 1.5rem;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  transition: 0.3s;
+}
+.nav-v2-dynamic__logged-out a:hover {
+  opacity: 0.6;
+}
+.nav-v2-dynamic__login:after {
+  content: "";
+  display: block;
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-left: 1.3rem;
+  border-radius: 50%;
+  background-color: #0d0c22;
+}
+.nav-v2-dynamic__signup {
+  background-color: #f8f7f4;
+  border: 1px solid #f8f7f4;
+  border-radius: 30px;
+}
+.nav-v2-dynamic__hire {
+  color: white;
+  background-color: #0d0c22;
+  border-radius: 24px;
+}
