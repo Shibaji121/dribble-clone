@@ -39,3 +39,20 @@ video {
   margin-top: 2rem;
   border-radius: 24px;
 }
+.content-block {
+  width: 75%;
+  margin: auto;
+  font-size: 24px;
+}
+.avatar-details {
+  display: flex;
+  align-items: center;
+}
+.avatar-line {
+  width: 46%;
+  border: 1px solid #e7e7e9;
+  margin: auto;
+}
+.user-details-section {
+  text-align: center;
+}
