@@ -1,11 +1,12 @@
 import React from "react";
 import NavBar from "./NavBar";
+import HomePage from "./HomePage";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <h1>tried</h1>
+      <HomePage />
     </div>
   );
 }

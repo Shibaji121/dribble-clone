@@ -6,3 +6,36 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.home-container {
+  padding: 4rem 6.5rem;
+}
+.content-container {
+  width: 90%;
+  margin: auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header > div {
+  margin-right: 1rem;
+}
+.hireme a {
+  display: flex;
+  color: white;
+  background-color: #0d0c22;
+  border-radius: 24px;
+  height: 2.5rem;
+  width: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.details {
+  width: 50%;
+}
+video {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 24px;
+}
